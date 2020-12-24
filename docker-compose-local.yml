@@ -28,6 +28,7 @@ services:
     entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
     ports:
      - 8081:8081
+    
 
   visits-service:
     image: petclinic-visits-service:dev
