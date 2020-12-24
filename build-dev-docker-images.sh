@@ -8,4 +8,4 @@ docker build --force-rm -t "petclinic-hystrix-dashboard:dev" ./spring-petclinic-
 docker build --force-rm -t "petclinic-vets-service:dev" ./spring-petclinic-vets-service
 docker build --force-rm -t "petclinic-visits-service:dev" ./spring-petclinic-visits-service
 docker build --force-rm -t "petclinic-grafana-server:dev" ./docker/grafana
-docker build --force-rm -t "petclinic-prometheus-server:dev" ./docker/prometheusls
+docker build --force-rm -t "petclinic-prometheus-server:dev" ./docker/prometheus
